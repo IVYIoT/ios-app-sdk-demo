@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		422A136722C36B7A00584004 /* LiveControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 422A136622C36B7A00584004 /* LiveControlCell.m */; };
+		422A136D22C3705000584004 /* LiveControlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 422A136C22C3705000584004 /* LiveControlModel.m */; };
+		422A137D22C4BE1A00584004 /* SDCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422A137C22C4BE1A00584004 /* SDCardController.m */; };
+		4287CDAF22CB34C0000970C0 /* libIvySdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4287CDA522CB34BF000970C0 /* libIvySdk.a */; };
+		42B2A5122351A799002A41BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B2A50D235171DD002A41BC /* AVFoundation.framework */; };
+		42B6494B22C75C200094255B /* UIImage+IvySdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B6494922C75C200094255B /* UIImage+IvySdk.m */; };
+		42BB380B23C5AE2500F8926F /* WiFiConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BB380A23C5AE2500F8926F /* WiFiConfiguration.m */; };
+		42BD115C22AF9139002F9C80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD115B22AF9139002F9C80 /* AppDelegate.m */; };
+		42BD116222AF9139002F9C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BD116022AF9139002F9C80 /* Main.storyboard */; };
+		42BD116422AF913A002F9C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BD116322AF913A002F9C80 /* Assets.xcassets */; };
+		42BD116722AF913A002F9C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BD116522AF913A002F9C80 /* LaunchScreen.storyboard */; };
+		42BD116A22AF913A002F9C80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD116922AF913A002F9C80 /* main.m */; };
+		42BD117422AF913A002F9C80 /* IvyAppDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD117322AF913A002F9C80 /* IvyAppDemoTests.m */; };
+		42BD117F22AF913A002F9C80 /* IvyAppDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BD117E22AF913A002F9C80 /* IvyAppDemoUITests.m */; };
+		42D688F322B219C200314157 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D688F222B219C200314157 /* libc++.tbd */; };
+		42D6CB3C22C20A62002A76F6 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D6CB3B22C20A62002A76F6 /* HomeController.m */; };
+		42D6CB3F22C20A73002A76F6 /* LiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D6CB3E22C20A73002A76F6 /* LiveController.m */; };
+		42D6CB4522C24237002A76F6 /* LiveControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D6CB4422C24237002A76F6 /* LiveControl.m */; };
+		C5699C75FD864B6180B3A360 /* libPods-IvyAppDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD2722630C0034F18D5420B /* libPods-IvyAppDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42BD117022AF913A002F9C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42BD114F22AF9139002F9C80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42BD115622AF9139002F9C80;
+			remoteInfo = IvyAppDemo;
+		};
+		42BD117B22AF913A002F9C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42BD114F22AF9139002F9C80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42BD115622AF9139002F9C80;
+			remoteInfo = IvyAppDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DC2B6BD7EF9C83D201B5681 /* Pods-IvyAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvyAppDemo.release.xcconfig"; path = "Target Support Files/Pods-IvyAppDemo/Pods-IvyAppDemo.release.xcconfig"; sourceTree = "<group>"; };
+		422A136522C36B7A00584004 /* LiveControlCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveControlCell.h; sourceTree = "<group>"; };
+		422A136622C36B7A00584004 /* LiveControlCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveControlCell.m; sourceTree = "<group>"; };
+		422A136B22C3705000584004 /* LiveControlModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveControlModel.h; sourceTree = "<group>"; };
+		422A136C22C3705000584004 /* LiveControlModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveControlModel.m; sourceTree = "<group>"; };
+		422A137B22C4BE1A00584004 /* SDCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDCardController.h; sourceTree = "<group>"; };
+		422A137C22C4BE1A00584004 /* SDCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDCardController.m; sourceTree = "<group>"; };
+		42550CF723C9B45900F00871 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4287CDA522CB34BF000970C0 /* libIvySdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIvySdk.a; sourceTree = "<group>"; };
+		42B2A50D235171DD002A41BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		42B6494922C75C200094255B /* UIImage+IvySdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IvySdk.m"; sourceTree = "<group>"; };
+		42B6494A22C75C200094255B /* UIImage+IvySdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+IvySdk.h"; sourceTree = "<group>"; };
+		42BB380123C5AC7100F8926F /* IvyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvyObject.h; sourceTree = "<group>"; };
+		42BB380223C5AC7100F8926F /* IvyPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvyPlayer.h; sourceTree = "<group>"; };
+		42BB380323C5AC7100F8926F /* IvyIoDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvyIoDef.h; sourceTree = "<group>"; };
+		42BB380423C5AC7100F8926F /* IvyCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvyCamera.h; sourceTree = "<group>"; };
+		42BB380523C5AC7100F8926F /* IvyConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvyConstants.h; sourceTree = "<group>"; };
+		42BB380623C5AC7100F8926F /* IvySdkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvySdkManager.h; sourceTree = "<group>"; };
+		42BB380723C5AC7100F8926F /* IvyVoicePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvyVoicePlayer.h; sourceTree = "<group>"; };
+		42BB380823C5AC7100F8926F /* IvySDPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IvySDPlayer.h; sourceTree = "<group>"; };
+		42BB380923C5AE2500F8926F /* WiFiConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiFiConfiguration.h; sourceTree = "<group>"; };
+		42BB380A23C5AE2500F8926F /* WiFiConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiFiConfiguration.m; sourceTree = "<group>"; };
+		42BD115722AF9139002F9C80 /* IvyAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IvyAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BD115A22AF9139002F9C80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42BD115B22AF9139002F9C80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42BD116122AF9139002F9C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42BD116322AF913A002F9C80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42BD116622AF913A002F9C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42BD116822AF913A002F9C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BD116922AF913A002F9C80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42BD116F22AF913A002F9C80 /* IvyAppDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IvyAppDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BD117322AF913A002F9C80 /* IvyAppDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IvyAppDemoTests.m; sourceTree = "<group>"; };
+		42BD117522AF913A002F9C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BD117A22AF913A002F9C80 /* IvyAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IvyAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BD117E22AF913A002F9C80 /* IvyAppDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IvyAppDemoUITests.m; sourceTree = "<group>"; };
+		42BD118022AF913A002F9C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D688F222B219C200314157 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		42D6CB3A22C20A62002A76F6 /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		42D6CB3B22C20A62002A76F6 /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		42D6CB3D22C20A73002A76F6 /* LiveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveController.h; sourceTree = "<group>"; };
+		42D6CB3E22C20A73002A76F6 /* LiveController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveController.m; sourceTree = "<group>"; };
+		42D6CB4322C24237002A76F6 /* LiveControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveControl.h; sourceTree = "<group>"; };
+		42D6CB4422C24237002A76F6 /* LiveControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveControl.m; sourceTree = "<group>"; };
+		EB932E85770E43EC3F2AE57C /* Pods-IvyAppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvyAppDemo.debug.xcconfig"; path = "Target Support Files/Pods-IvyAppDemo/Pods-IvyAppDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EFD2722630C0034F18D5420B /* libPods-IvyAppDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IvyAppDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42BD115422AF9139002F9C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B2A5122351A799002A41BC /* AVFoundation.framework in Frameworks */,
+				4287CDAF22CB34C0000970C0 /* libIvySdk.a in Frameworks */,
+				42D688F322B219C200314157 /* libc++.tbd in Frameworks */,
+				C5699C75FD864B6180B3A360 /* libPods-IvyAppDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BD116C22AF913A002F9C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BD117722AF913A002F9C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20303C1FBF68108C14BDAFFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB932E85770E43EC3F2AE57C /* Pods-IvyAppDemo.debug.xcconfig */,
+				2DC2B6BD7EF9C83D201B5681 /* Pods-IvyAppDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		422A137722C4BD5300584004 /* SDCard */ = {
+			isa = PBXGroup;
+			children = (
+				422A137822C4BD5300584004 /* Controller */,
+				422A137922C4BD5300584004 /* Model */,
+				422A137A22C4BD5300584004 /* View */,
+			);
+			path = SDCard;
+			sourceTree = "<group>";
+		};
+		422A137822C4BD5300584004 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				422A137B22C4BE1A00584004 /* SDCardController.h */,
+				422A137C22C4BE1A00584004 /* SDCardController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		422A137922C4BD5300584004 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		422A137A22C4BD5300584004 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		424FF55F23C3212700FBFE74 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				424FF56023C3212700FBFE74 /* Controller */,
+				424FF56123C3212700FBFE74 /* Model */,
+				424FF56223C3212700FBFE74 /* View */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		424FF56023C3212700FBFE74 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				42BB380923C5AE2500F8926F /* WiFiConfiguration.h */,
+				42BB380A23C5AE2500F8926F /* WiFiConfiguration.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		424FF56123C3212700FBFE74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		424FF56223C3212700FBFE74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4287CDA622CB34C0000970C0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4287CDA722CB34C0000970C0 /* IvySdk */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4287CDA722CB34C0000970C0 /* IvySdk */ = {
+			isa = PBXGroup;
+			children = (
+				42BB380423C5AC7100F8926F /* IvyCamera.h */,
+				42BB380523C5AC7100F8926F /* IvyConstants.h */,
+				42BB380323C5AC7100F8926F /* IvyIoDef.h */,
+				42BB380123C5AC7100F8926F /* IvyObject.h */,
+				42BB380223C5AC7100F8926F /* IvyPlayer.h */,
+				42BB380623C5AC7100F8926F /* IvySdkManager.h */,
+				42BB380823C5AC7100F8926F /* IvySDPlayer.h */,
+				42BB380723C5AC7100F8926F /* IvyVoicePlayer.h */,
+			);
+			path = IvySdk;
+			sourceTree = "<group>";
+		};
+		42BD114E22AF9139002F9C80 = {
+			isa = PBXGroup;
+			children = (
+				42BD115922AF9139002F9C80 /* IvyAppDemo */,
+				42BD117222AF913A002F9C80 /* IvyAppDemoTests */,
+				42BD117D22AF913A002F9C80 /* IvyAppDemoUITests */,
+				42BD115822AF9139002F9C80 /* Products */,
+				20303C1FBF68108C14BDAFFD /* Pods */,
+				DFCAC9995F70BD80F58228E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42BD115822AF9139002F9C80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42BD115722AF9139002F9C80 /* IvyAppDemo.app */,
+				42BD116F22AF913A002F9C80 /* IvyAppDemoTests.xctest */,
+				42BD117A22AF913A002F9C80 /* IvyAppDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42BD115922AF9139002F9C80 /* IvyAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				42F1E7F622C7583D00BCB14D /* IvySdk */,
+				42D688C922AFA57C00314157 /* Features */,
+				42BD115A22AF9139002F9C80 /* AppDelegate.h */,
+				42BD115B22AF9139002F9C80 /* AppDelegate.m */,
+				42550CF723C9B45900F00871 /* Constants.h */,
+				42BD116022AF9139002F9C80 /* Main.storyboard */,
+				42BD116322AF913A002F9C80 /* Assets.xcassets */,
+				42BD116522AF913A002F9C80 /* LaunchScreen.storyboard */,
+				42BD116822AF913A002F9C80 /* Info.plist */,
+				42BD116922AF913A002F9C80 /* main.m */,
+			);
+			path = IvyAppDemo;
+			sourceTree = "<group>";
+		};
+		42BD117222AF913A002F9C80 /* IvyAppDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				42BD117322AF913A002F9C80 /* IvyAppDemoTests.m */,
+				42BD117522AF913A002F9C80 /* Info.plist */,
+			);
+			path = IvyAppDemoTests;
+			sourceTree = "<group>";
+		};
+		42BD117D22AF913A002F9C80 /* IvyAppDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42BD117E22AF913A002F9C80 /* IvyAppDemoUITests.m */,
+				42BD118022AF913A002F9C80 /* Info.plist */,
+			);
+			path = IvyAppDemoUITests;
+			sourceTree = "<group>";
+		};
+		42D688C922AFA57C00314157 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				42D6CB3622C20A2D002A76F6 /* Home */,
+				424FF55F23C3212700FBFE74 /* Add */,
+				42D6CB3222C2089C002A76F6 /* Live */,
+				422A137722C4BD5300584004 /* SDCard */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		42D6CB3222C2089C002A76F6 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				42D6CB3322C2089C002A76F6 /* Controller */,
+				42D6CB3422C2089C002A76F6 /* Model */,
+				42D6CB3522C2089C002A76F6 /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		42D6CB3322C2089C002A76F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				42D6CB3D22C20A73002A76F6 /* LiveController.h */,
+				42D6CB3E22C20A73002A76F6 /* LiveController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		42D6CB3422C2089C002A76F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				422A136B22C3705000584004 /* LiveControlModel.h */,
+				422A136C22C3705000584004 /* LiveControlModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42D6CB3522C2089C002A76F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42D6CB4322C24237002A76F6 /* LiveControl.h */,
+				42D6CB4422C24237002A76F6 /* LiveControl.m */,
+				422A136522C36B7A00584004 /* LiveControlCell.h */,
+				422A136622C36B7A00584004 /* LiveControlCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		42D6CB3622C20A2D002A76F6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				42D6CB3722C20A2D002A76F6 /* Controller */,
+				42D6CB3822C20A2D002A76F6 /* Model */,
+				42D6CB3922C20A2D002A76F6 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		42D6CB3722C20A2D002A76F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				42D6CB3A22C20A62002A76F6 /* HomeController.h */,
+				42D6CB3B22C20A62002A76F6 /* HomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		42D6CB3822C20A2D002A76F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42D6CB3922C20A2D002A76F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42B6494A22C75C200094255B /* UIImage+IvySdk.h */,
+				42B6494922C75C200094255B /* UIImage+IvySdk.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		42F1E7F622C7583D00BCB14D /* IvySdk */ = {
+			isa = PBXGroup;
+			children = (
+				4287CDA622CB34C0000970C0 /* include */,
+				4287CDA522CB34BF000970C0 /* libIvySdk.a */,
+			);
+			path = IvySdk;
+			sourceTree = "<group>";
+		};
+		DFCAC9995F70BD80F58228E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42B2A50D235171DD002A41BC /* AVFoundation.framework */,
+				42D688F222B219C200314157 /* libc++.tbd */,
+				EFD2722630C0034F18D5420B /* libPods-IvyAppDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42BD115622AF9139002F9C80 /* IvyAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BD118322AF913A002F9C80 /* Build configuration list for PBXNativeTarget "IvyAppDemo" */;
+			buildPhases = (
+				28E89081DC40BDBED9CB0EC0 /* [CP] Check Pods Manifest.lock */,
+				42BD115322AF9139002F9C80 /* Sources */,
+				42BD115422AF9139002F9C80 /* Frameworks */,
+				42BD115522AF9139002F9C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IvyAppDemo;
+			productName = IvyAppDemo;
+			productReference = 42BD115722AF9139002F9C80 /* IvyAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42BD116E22AF913A002F9C80 /* IvyAppDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BD118622AF913A002F9C80 /* Build configuration list for PBXNativeTarget "IvyAppDemoTests" */;
+			buildPhases = (
+				42BD116B22AF913A002F9C80 /* Sources */,
+				42BD116C22AF913A002F9C80 /* Frameworks */,
+				42BD116D22AF913A002F9C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42BD117122AF913A002F9C80 /* PBXTargetDependency */,
+			);
+			name = IvyAppDemoTests;
+			productName = IvyAppDemoTests;
+			productReference = 42BD116F22AF913A002F9C80 /* IvyAppDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42BD117922AF913A002F9C80 /* IvyAppDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BD118922AF913A002F9C80 /* Build configuration list for PBXNativeTarget "IvyAppDemoUITests" */;
+			buildPhases = (
+				42BD117622AF913A002F9C80 /* Sources */,
+				42BD117722AF913A002F9C80 /* Frameworks */,
+				42BD117822AF913A002F9C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42BD117C22AF913A002F9C80 /* PBXTargetDependency */,
+			);
+			name = IvyAppDemoUITests;
+			productName = IvyAppDemoUITests;
+			productReference = 42BD117A22AF913A002F9C80 /* IvyAppDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42BD114F22AF9139002F9C80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = JackChan;
+				TargetAttributes = {
+					42BD115622AF9139002F9C80 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					42BD116E22AF913A002F9C80 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 42BD115622AF9139002F9C80;
+					};
+					42BD117922AF913A002F9C80 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 42BD115622AF9139002F9C80;
+					};
+				};
+			};
+			buildConfigurationList = 42BD115222AF9139002F9C80 /* Build configuration list for PBXProject "IvyAppDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42BD114E22AF9139002F9C80;
+			productRefGroup = 42BD115822AF9139002F9C80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42BD115622AF9139002F9C80 /* IvyAppDemo */,
+				42BD116E22AF913A002F9C80 /* IvyAppDemoTests */,
+				42BD117922AF913A002F9C80 /* IvyAppDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42BD115522AF9139002F9C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BD116722AF913A002F9C80 /* LaunchScreen.storyboard in Resources */,
+				42BD116422AF913A002F9C80 /* Assets.xcassets in Resources */,
+				42BD116222AF9139002F9C80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BD116D22AF913A002F9C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BD117822AF913A002F9C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28E89081DC40BDBED9CB0EC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IvyAppDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42BD115322AF9139002F9C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BB380B23C5AE2500F8926F /* WiFiConfiguration.m in Sources */,
+				422A136722C36B7A00584004 /* LiveControlCell.m in Sources */,
+				42D6CB4522C24237002A76F6 /* LiveControl.m in Sources */,
+				422A137D22C4BE1A00584004 /* SDCardController.m in Sources */,
+				42D6CB3C22C20A62002A76F6 /* HomeController.m in Sources */,
+				42B6494B22C75C200094255B /* UIImage+IvySdk.m in Sources */,
+				42D6CB3F22C20A73002A76F6 /* LiveController.m in Sources */,
+				42BD116A22AF913A002F9C80 /* main.m in Sources */,
+				422A136D22C3705000584004 /* LiveControlModel.m in Sources */,
+				42BD115C22AF9139002F9C80 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BD116B22AF913A002F9C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BD117422AF913A002F9C80 /* IvyAppDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BD117622AF913A002F9C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BD117F22AF913A002F9C80 /* IvyAppDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42BD117122AF913A002F9C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42BD115622AF9139002F9C80 /* IvyAppDemo */;
+			targetProxy = 42BD117022AF913A002F9C80 /* PBXContainerItemProxy */;
+		};
+		42BD117C22AF913A002F9C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42BD115622AF9139002F9C80 /* IvyAppDemo */;
+			targetProxy = 42BD117B22AF913A002F9C80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42BD116022AF9139002F9C80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BD116122AF9139002F9C80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42BD116522AF913A002F9C80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BD116622AF913A002F9C80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42BD118122AF913A002F9C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42BD118222AF913A002F9C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42BD118422AF913A002F9C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB932E85770E43EC3F2AE57C /* Pods-IvyAppDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5KEXW3PPD;
+				ENABLE_BITCODE = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = IvyAppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IvyAppDemo/IvySdk",
+					"$(PROJECT_DIR)/IvyAppDemo/IvySdk/IvySdk",
+					"$(PROJECT_DIR)/IvyAppDemo/IvySdk/Private/IvySdk",
+					"$(PROJECT_DIR)/IvyAppDemo/Voice",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Foscam.IvyAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42BD118522AF913A002F9C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC2B6BD7EF9C83D201B5681 /* Pods-IvyAppDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5KEXW3PPD;
+				ENABLE_BITCODE = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = IvyAppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IvyAppDemo/IvySdk",
+					"$(PROJECT_DIR)/IvyAppDemo/IvySdk/IvySdk",
+					"$(PROJECT_DIR)/IvyAppDemo/IvySdk/Private/IvySdk",
+					"$(PROJECT_DIR)/IvyAppDemo/Voice",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Foscam.IvyAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42BD118722AF913A002F9C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5KEXW3PPD;
+				INFOPLIST_FILE = IvyAppDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Foscam.IvyAppDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IvyAppDemo.app/IvyAppDemo";
+			};
+			name = Debug;
+		};
+		42BD118822AF913A002F9C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5KEXW3PPD;
+				INFOPLIST_FILE = IvyAppDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Foscam.IvyAppDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IvyAppDemo.app/IvyAppDemo";
+			};
+			name = Release;
+		};
+		42BD118A22AF913A002F9C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5KEXW3PPD;
+				INFOPLIST_FILE = IvyAppDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Foscam.IvyAppDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IvyAppDemo;
+			};
+			name = Debug;
+		};
+		42BD118B22AF913A002F9C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5KEXW3PPD;
+				INFOPLIST_FILE = IvyAppDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Foscam.IvyAppDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IvyAppDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42BD115222AF9139002F9C80 /* Build configuration list for PBXProject "IvyAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BD118122AF913A002F9C80 /* Debug */,
+				42BD118222AF913A002F9C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BD118322AF913A002F9C80 /* Build configuration list for PBXNativeTarget "IvyAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BD118422AF913A002F9C80 /* Debug */,
+				42BD118522AF913A002F9C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BD118622AF913A002F9C80 /* Build configuration list for PBXNativeTarget "IvyAppDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BD118722AF913A002F9C80 /* Debug */,
+				42BD118822AF913A002F9C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BD118922AF913A002F9C80 /* Build configuration list for PBXNativeTarget "IvyAppDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BD118A22AF913A002F9C80 /* Debug */,
+				42BD118B22AF913A002F9C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42BD114F22AF9139002F9C80 /* Project object */;
+}
